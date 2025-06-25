@@ -15,13 +15,6 @@ import (
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 )
 
-// Health check endpoint
-func healthHandler(w http.ResponseWriter, r *http.Request) {
-	w.Header().Set("Content-Type", "application/json")
-	w.WriteHeader(http.StatusOK)
-	w.Write([]byte(`{"status":"healthy"}`))
-}
-
 func main() {
 	port := "8080"
 	router := mux.NewRouter()

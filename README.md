@@ -162,6 +162,3 @@ for i in {1..100}; do
 done
 ```
 
-## License
-
-This project is open source and available under the MIT License.
