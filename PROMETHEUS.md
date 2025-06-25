@@ -1,3 +1,5 @@
+**Reference** - https://www.geeksforgeeks.org/devops/what-is-scrape-config-in-prometheus/ 
+
 ## What is Scrape Config in Prometheus
 
 Prometheus is a powerful open-source monitoring and alerting tool designed to collect and store metrics in the form of time-series data. One of the key features of Prometheus that makes it extremely versatile is its ability to pull metrics from a variety of sources. This is where scrap layouts come into play.
