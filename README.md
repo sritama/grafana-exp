@@ -161,7 +161,3 @@ for i in {1..100}; do
   sleep 0.1
 done
 ```
-
-## License
-
-This project is open source and available under the MIT License.
